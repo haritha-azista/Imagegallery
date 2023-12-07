@@ -1,0 +1,43 @@
+.uploadButton {
+    margin-left: 50vw;
+    margin-top: 10px;
+}
+
+.ImgListHeading {
+    color: rgb(0, 107, 9);
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: rgb(170, 196, 140);
+    padding: 5px;
+    top: 0px;
+    text-align: center;
+}
+
+.imgContainer {
+    width: 70%;
+    text-align: center;
+}
+
+.ImageSlideContainer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imageListC {
+    border: 2px solid rgb(146, 168, 120);
+    box-shadow: -2px 1px 1px rgb(183, 194, 183);
+    border-radius: 5px;
+    width: fit-content;
+    max-height: 350px;
+    overflow-y: scroll;
+    padding: 15px;
+    margin-left: 10vw;
+    margin-top: 40px;
+}
+
+.imageGalleryContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+
+}
